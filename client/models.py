@@ -12,4 +12,4 @@ class Client(models.Model):
     code = models.CharField(max_length=64, blank=False)
     photo = models.CharField(max_length=128)
     address = models.CharField(max_length=128)
-    month = models.CharField(max_length=7, choices=TYPE_CHOICES, default="NORMAL")
+    type = models.CharField(max_length=7, choices=TYPE_CHOICES, default="NORMAL")
