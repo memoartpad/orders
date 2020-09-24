@@ -5,6 +5,7 @@
 		"fields": {
 			"order_number": 1,
 			"client": 1,
+			"date_created":"2020-09-24T17:41:28+00:00",
 			"warehouse": "Almacen 1",
 			"article": 1,
 			"quantity":5

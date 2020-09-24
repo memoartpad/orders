@@ -8,7 +8,7 @@ class Order(models.Model):
     order_number = models.IntegerField()
     client = models.ForeignKey(Client, on_delete=models.CASCADE, null=True)
     date_created = models.DateTimeField(auto_now_add=True)
-    date_supply = models.DateTimeField()
+    date_supply = models.DateTimeField(null=True)
     urgent = models.BooleanField(default=False)
     warehouse = models.CharField(max_length=64, blank=True, null=True)
     reference = models.CharField(max_length=64, blank=True, null=True)
