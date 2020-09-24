@@ -1,0 +1,13 @@
+[
+	{
+		"model": "order.order",
+		"pk": 1,
+		"fields": {
+			"order_number": 1,
+			"client": 1,
+			"warehouse": "Almacen 1",
+			"article": 1,
+			"quantity":5
+		}
+	}
+]

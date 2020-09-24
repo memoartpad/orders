@@ -1,0 +1,20 @@
+[
+	{
+		"model": "vendor.vendor",
+		"pk": 1,
+		"fields": {
+			"name": "Provedor 1",
+			"address": "calle Lopez mateos",
+			"articles": [1,2]
+		}
+	},
+	{
+		"model": "vendor.vendor",
+		"pk": 2,
+		"fields": {
+			"name": "Provedor 2",
+			"address": "Mariano otero",
+			"articles": [1]
+		}
+	}
+]

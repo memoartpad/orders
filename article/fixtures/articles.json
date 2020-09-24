@@ -1,0 +1,18 @@
+[
+	{
+		"model": "article.article",
+		"pk": 1,
+		"fields": {
+			"description": "Articulo para perros",
+			"code": 123456789,
+		}
+	},
+	{
+		"model": "article.article",
+		"pk": 2,
+		"fields": {
+			"description": "Articulo para humanos",
+			"code": 987654321,
+		}
+	}
+]

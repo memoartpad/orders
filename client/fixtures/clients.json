@@ -1,0 +1,11 @@
+[
+	{
+		"model": "client.client",
+		"pk": 1,
+		"fields": {
+			"name": "Guillermo Arteaga",
+			"code": "GA123",
+			"photo": "http://m.aldia.co/sites/default/files/detalleperritomusctecnologia_def.jpg"
+		}
+	}
+]
